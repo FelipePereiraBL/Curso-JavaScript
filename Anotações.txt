@@ -1,0 +1,7 @@
+JavaScript= Linguagem de interação
+ECMAScript= Versão padronizada do JavaScript
+NodeJS= Tecnologia que permite a utilização de JvaScript fora do navegador
+
+Biblioteca= Conjunto de codigos pre-programados para resolver um problema
+API= Conjunto de rotinass e padrões que permitem a comunicação e troca de recursos entre softwares, sistemas e plataformas
+Framework= Conjunto de codigos pre-programados que podem incluir recursos de Bibliotecas e API´s para facilitar o desenvolvimento de um software ou sistema
