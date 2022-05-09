@@ -1,3 +1,6 @@
 window.alert("")= Janela com mensagem na tela(window pode ser omitido)
 window.confirm("")= Janela que pede uma confirmação(window pode ser omitido)
-window.prompt("")= Janela com uma caixa de texto(window pode ser omitido)
+window.prompt("")= Janela com uma caixa de pergunta(window pode ser omitido)
+
+No terminal do nodeJS(
+typeof= Identifica o tipo da variavel)
