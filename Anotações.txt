@@ -14,3 +14,19 @@ string= Aceita cadeia de caracteres(Letras, numeros e simbolos)
 bool= Aceita valores verdadeiro ou falso(true ou false)
 
 Template string(${})= é uma nova forma de criar strings e tornar o seu código um pouco mais legível.A string deve ser colocada entre crases(shift+crase)
+
+Operadores aritméticos(
+    "+"= Adição,
+    "-"= Subtração,
+    "*"= Multiplicação,
+    "/"= Divisão,
+    "%"= Resto da divisão,
+    "**"= Potencia(elevado á)
+)
+
+Ordem de precedência dos operadores aritméticos(
+    ()
+    **
+    * / %
+    + -
+)
