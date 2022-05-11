@@ -30,3 +30,22 @@ Ordem de precedência dos operadores aritméticos(
     * / %
     + -
 )
+
+Operadores relacionais(
+    ">"= Maior,
+    "<"= Menor,
+    ">="= Maior ou igual,
+    "<="= Menor ou igual,
+    "=="= Igual,
+    "!="= Diferente
+)
+
+Operadores Logicos(
+    "!"= Negação(não),
+    "&&"= Conjunção(e),
+    "||"= Disjunção(ou)
+)
+
+Operador Ternario(
+    teste ? true : false
+)
