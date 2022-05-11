@@ -1,6 +1,6 @@
 JavaScript= Linguagem de interação
 ECMAScript= Versão padronizada do JavaScript
-NodeJS= Tecnologia que permite a utilização de JvaScript fora do navegador
+NodeJS= Tecnologia que permite a utilização de JavaScript fora do navegador
 
 Biblioteca= Conjunto de codigos pre-programados para resolver um problema
 API= Conjunto de rotinass e padrões que permitem a comunicação e troca de recursos entre softwares, sistemas e plataformas
@@ -12,3 +12,5 @@ Tipos de variaveis:
 number= Aceita numeros, tanto int quanto float(Infinity e Nan)
 string= Aceita cadeia de caracteres(Letras, numeros e simbolos)
 bool= Aceita valores verdadeiro ou falso(true ou false)
+
+Template string(${})= é uma nova forma de criar strings e tornar o seu código um pouco mais legível.A string deve ser colocada entre crases(shift+crase)

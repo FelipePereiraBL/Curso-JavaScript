@@ -4,3 +4,20 @@ window.prompt("")= Janela com uma caixa de pergunta(window pode ser omitido)
 
 No terminal do nodeJS(
 typeof= Identifica o tipo da variavel)
+
+Number.parseInt(n)=Converte para numero inteiro
+Number.parseFloat(n)= Converte para numero real(com virgula)
+Number(n)= O javaScript converte para numero e identifica se é inteiro
+String(n) ou n.toString()= Converte para string 
+.toLocaleString('pT-BR',{style: 'currency',currency:'USD'})= string localizada por local do mundo e mostra como valor monetario
+
+.lenght= Mostra quantos caracteres tem na string
+.toUpperCase()= Deixa a string com letra maiuscula
+.toLowerCase()= Deixa a string com letra minuscula
+.replace('','')= Troca uma coisa por outra(ponto por virgula)
+
+.toFixed(*)= Formata o numero e o exibe com um determinado numero de casas decimais
+document.write= Mostra mensagem no documento
+document.writeLine= Mostra mensagem no documento e pula uma linha
+
+
