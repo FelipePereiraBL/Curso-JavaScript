@@ -49,3 +49,37 @@ Operadores Logicos(
 Operador Ternario(
     teste ? true : false
 )
+
+DOM(Document Object Model)= Conjunto  de objetos dentro do navegador que dá acesso aos componentes internos do website
+
+Exemplo de Arvore DOM{
+
+                window
+                  |
+        --------------------
+        |         |        |             
+     location  document  histoty
+                  |
+                 html
+                  |    
+               -------
+               |     |
+              head  body
+               /      \
+        --------       -------------
+        |      |       |   |   |   |
+       meta  title     h1  p   p  div
+                               |
+                             strong
+}
+
+.inerText= Obtenha o texto interno de um elemento
+.inerHTML= Obtenha o texto interno de um elemento com as tags html
+
+Selecionando elementos da arvore DAO{
+    Marca(getElementsByTagName())= Seleciona os elementos que tenham a mesma tag
+    ID(getElementById())= Seleciona um elemento pelo id
+    Nome(getElementsByName())= Seleciona os elementos pelo nome
+    Classe(getElementsByClassName())= Seleciona os elementos por classe
+    Seletor(querySelector()/querySelectorAll())= Seleciona os elementos por seletor
+}
