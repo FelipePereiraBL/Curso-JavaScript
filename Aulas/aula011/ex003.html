@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Brasileiro ou Estrangeiro</h1>
+
+   Escolha um pais: <input type="text" name="txtPais" id="txtPais">
+   <input type="button" value="Verificar" onclick="verificar()">
+
+   <div id="res"></div>
+
+   <script>
+       function verificar(){
+        var p=window.document.getElementById('txtPais')
+
+        var res=window.document.querySelector('div#res')
+
+        var pais=String(p.value)     
+
+        res.innerHTML=`<p>Você está vivendo no <strong>${pais}</strong></p>`
+
+        if(pais=='Brasil'){
+            res.innerHTML+=`<p>Você é <strong>Brasileiro</strong></p>`
+        }else{
+            res.innerHTML+=`<p>Você é <strong>Estrangeiro</strong></p>`
+        }
+    }        
+       
+   </script>
+    
+</body>
+</html>
