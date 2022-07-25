@@ -85,12 +85,12 @@ Selecionando elementos da arvore DAO{
 }
 
 Evento= Qualquer coisa que pode acontecer com um elemento(
-mouseenter= Quando o mouse entrar no elemento
-mousemove= Enquanto o mouse se modve dentro do elemento
-mousedown= Quando clicar e segurar o click do mouse 
-mouseup= Quando soltar o click do mouse
-mouseout= Quando o mouse sair do elemnto
-click= Quando clicar e soltar
+onmouseenter= Quando o mouse entrar no elemento
+onmousemove= Enquanto o mouse se modve dentro do elemento
+onmousedown= Quando clicar e segurar o click do mouse 
+onmouseup= Quando soltar o click do mouse
+onmouseout= Quando o mouse sair do elemnto
+onclick= Quando clicar e soltar
 )
 
 Função= Conjunto de codigos que serão executados quando um evento ocorrer
