@@ -5,9 +5,14 @@ function carregar(){
     var img=document.getElementById('imagem')
 
     //Hora atual do sistema
-    var hora=new Date().getHours()+":"+new Date().getMinutes();  
+    var hora=new Date().getHours()
+    var min=new Date().getMinutes()
 
-    msg.innerHTML=`Agora são ${hora} horas`
+    if(min < 10){
+        min= "0" + min
+    }
+
+    msg.innerHTML=`Agora são ${hora + ":" + min} horas`
 
     if(hora >= 0 && hora < 12){
         img.src='imagens/manha.png'
