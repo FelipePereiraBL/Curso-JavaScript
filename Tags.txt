@@ -20,4 +20,8 @@ String(n) ou n.toString()= Converte para string
 document.write= Mostra mensagem no documento
 document.writeLine= Mostra mensagem no documento e pula uma linha
 
+createElement()= cria um elemento usando javaScript
+setAtribute()= coloca um atributo no elemento usando javaScript
+appendChild= adiciona um elemento usando javaScript
+
 

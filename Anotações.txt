@@ -99,3 +99,4 @@ addEventListener('evento',função)= Permite configurar funções a serem chamad
 
 <input>= Usado para criar controles interativos para formulários baseados na web para receber dados do usuário
 
+Quando se insere um elemento img usando javascript, é preciso usar o setAtribute para atribuir o src e o id 
