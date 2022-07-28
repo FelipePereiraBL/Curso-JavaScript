@@ -85,7 +85,7 @@ function verificar(){
         }
         
         //Imprime uma frase no html
-        res.innerHTML = `Detectamos ${artInd} ${faseVida} ${idadeTxt}`
+        res.innerHTML = `<p>Detectamos ${artInd} ${faseVida} ${idadeTxt}<p>`
 
         //Adiciona a imagem  no html
         res.appendChild(img)
