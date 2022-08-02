@@ -10,17 +10,30 @@
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Vamos contar</h1>
 
     </header>
 
     <section>
         <div>
-            testando...
+            <p>
+                <label for="idInic">Inicio:</label>
+                <input type="number" name="inic" id="idInic">
+            </p>
+            <p>
+                <label for="idFim">Fim:</label>
+                <input type="number" name="fim" id="idFim">
+            </p>
+            <p>
+                <label for="idPasso">Passo:</label>
+                <input type="number" name="passo" id="idPasso">
+            </p>
+
+            <input type="button" value="Contar" onclick="calcular()">
         </div>
 
-        <div>
-
+        <div id="result">
+            <p>Preparando a contagem</p>
         </div>
 
     </section>
