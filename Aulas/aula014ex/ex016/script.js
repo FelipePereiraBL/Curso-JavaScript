@@ -12,16 +12,21 @@ function calcular(){
         passo=1
     }
 
-    if(inic<=0 || fim<=0 || inic>=fim){
+    if(inic<=0 || fim<=0 ){
         res.innerHTML+=`Impossivel contar`
+    }else if(inic>=fim){
+        while(inic>=fim){
+            res.innerHTML+=` ${inic} &#x1F449;`
+            inic-=passo
+        }
+            
     }else{
-
         while(inic<=fim){
             res.innerHTML+=` ${inic} &#x1F449;`
             inic+=passo
         }
-        
-        res.innerHTML+=` &#x1F3C1;`    
     }
+
+    res.innerHTML+=` &#x1F3C1;`
     
 }
