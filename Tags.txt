@@ -24,4 +24,8 @@ createElement()= cria um elemento usando javaScript
 setAtribute()= coloca um atributo no elemento usando javaScript
 appendChild= adiciona um elemento usando javaScript
 
+num.push(valor)= adiciona novo valor no final do array
 
+.length= mostra o tamanho do elemento
+.sort()= coloca os elementos do array em ordem crescente
+.indexOf(valor)= procura o valor dentro do array e retorna a chave

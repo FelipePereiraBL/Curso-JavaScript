@@ -7,11 +7,11 @@ function tabuada(){
     let tab=document.getElementById('idTabuada')
   
     if(txtNumero.value.length==0){
-        let item=document.createElement(`option`)
-        item.text='Digite um numero acima'
+        let msg=document.createElement(`option`)
+        msg.text='Digite um numero acima'
 
         tab.innerHTML=''
-        tab.appendChild(item)
+        tab.appendChild(msg)
 
         window.alert('Digite um numero')
     }else{
