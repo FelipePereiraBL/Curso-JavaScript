@@ -24,3 +24,7 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+div{
+    padding-top: 10px;
+}
