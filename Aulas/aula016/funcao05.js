@@ -1,12 +1,11 @@
 function fatorial(num){
-    let fat=1
+    let fat
 
-    for(let c=num; c>1;c--){
-        fat*=c
-    }
+    num==1?fat=1:fat=num*fatorial(num-1)
 
     return fat
 }
 
 let valor=5
+
 console.log(fatorial(valor))
