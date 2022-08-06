@@ -21,7 +21,7 @@ section{
 
 /*Lista que exibe os numeros*/
 select{
-    width: 180px;
+    width: 350px;
     margin-top: 20px;
 }
 

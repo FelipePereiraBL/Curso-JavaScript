@@ -29,3 +29,5 @@ num.push(valor)= adiciona novo valor no final do array
 .length= mostra o tamanho do elemento
 .sort()= coloca os elementos do array em ordem crescente
 .indexOf(valor)= procura o valor dentro do array e retorna a chave
+
+.focus()= coloca o foco na caixa em questao
