@@ -5,7 +5,7 @@ resul=document.querySelector('#idResult')
 vetNum=[]
 
 //Pega onumero que foi digitado e manda para a validação
-function pegarValores(){
+function pegarNumero(){
     validar(txtNum)
 }
 
@@ -32,7 +32,6 @@ function adicionar(num){
     item=document.createElement('option')
 
     item.text=`O número ${num} foi adicionado na posição ${vetNum.indexOf(num)} da lista.`
-    item.value=`pos${vetNum.indexOf(num)}`
 
     listNum.appendChild(item)    
 }
