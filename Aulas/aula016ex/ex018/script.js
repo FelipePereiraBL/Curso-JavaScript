@@ -52,19 +52,24 @@ function finalizar(){
     }else{
         resul.innerHTML=''
 
+        //Total de numeros 
         resul.innerHTML+=`<p>Ao todo, foram adicionados ${vetNum.length} números à lista.</p>`   
     
+        //O maior e o menor numero
         vetNum.sort(ordenarNumeros)
         resul.innerHTML+=`<p>O menor número da lista é ${vetNum[0]}</p>`
         resul.innerHTML+=`<p>O maior número da lista é ${vetNum[vetNum.length-1]}.</p>`
     
+        //Soma dos números
         soma=0
         for(let pos in vetNum){
             soma+=Number(vetNum[pos]) 
         }
         resul.innerHTML+=`<p>A soma de todos os números da lista é ${soma}.</p>`
     
-        resul.innerHTML+=`A média dos números da lista é ${soma/vetNum.length}`
+        //Media dos numeros
+        media= soma/vetNum.length
+        resul.innerHTML+=`A média dos números da lista é ${media.toFixed(2)}`
     }
     
 }
